@@ -47,12 +47,14 @@ fun main(args: Array<String>)
     val minus = a.minus(b)
     val times = a.times(b)
     val div = a.div(b)
-    val mod = a.rem(b)
+    val mod = a.mod(b)
+    val rem = a.rem(b)
     println("plus = "+plus)
     println("minus = $minus")
     println("times = $times")
     println("div = $div")
     println("mod = $mod")
+    println("rem = $rem")
 
     /**
      * Example: Assignment Operators
